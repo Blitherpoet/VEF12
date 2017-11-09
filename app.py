@@ -5,4 +5,4 @@ from bottle import *
 def index():
   return "halló Þröstur!"
   
-return(host='0.0.0.0', port=os.envrion.get('PORT'))
+run(host='0.0.0.0', port=os.envrion.get('PORT'))
